@@ -1,0 +1,94 @@
+body {
+  overflow-x: hidden;
+}
+
+.features_area {
+    padding-bottom: 170px; }
+    @media (max-width: 1199px) {
+      .features_area {
+        padding-bottom: 50px; } }
+  
+  .feature_item {
+    padding: 45px 25px;
+    text-align: center;
+    background: #f9f9fd;
+    cursor: pointer;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; }
+    .feature_item img {
+      margin-bottom: 35px; }
+    .feature_item h4 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      text-transform: uppercase; }
+    .feature_item p {
+      margin-bottom: 0px; }
+    .feature_item:hover {
+      box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+      background: #fff; }
+    .skill-mf {
+      margin-left: 15%;
+      margin-bottom: 10%;
+      }
+
+      #job {
+        position: relative;
+      }
+      
+      #job::before {
+        content: "";
+        width: 100%;
+        height: calc(100% + 10px);
+        /* overflow: hidden; */
+        background-color: #fff;
+        border-left: 3px solid #333;
+        position: absolute;
+        top: 0;
+        left: 0%;
+        animation: animate 4.4s steps(12) infinite;
+      }
+      
+      @keyframes animate{
+        40%, 60%{
+            left: calc(100% + 4px);
+        }
+        100%{
+            left: -2%;
+        }
+      }
+
+      .bradius {
+        border-radius: 15px;
+      }
+
+      .project-info {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 20px;
+      }
+
+      .project-info p {
+        font-size: 20px;
+        color: #333;
+        text-transform: capitalize;
+      }
+      .project-info p:hover {
+        color: var(--warning);
+      }
+
+  @media (max-width : 600px) {
+    body {
+      width: 100%;
+      overflow-x: hidden;
+    }
+    body nav .container .navbar-toggler {
+position: absolute;
+      right: 10px;
+    }
+  }

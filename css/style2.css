@@ -1,0 +1,46 @@
+
+/*=================================================================*/
+/*                      SERVICE                              
+/*=================================================================*/
+
+.container-Tools {
+  background-color: inherit;
+  align-items: center;
+  display: flex;
+  overflow-x: scroll;
+  padding: 24px;
+  width: 100%;
+  scroll-snap-type: mandatory;
+  scroll-padding: 24x;
+  border-radius: 8px;
+  margin-bottom: 100px;
+  gap: 50px;
+}
+
+.container-Tools .item {
+  background-color: inherit;
+  box-shadow: 0px 0px 5px 0px black;
+  padding: 24px;
+  border-radius: 20px;
+  scroll-snap-type: start;
+}
+
+.service-box {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.service-box h3 {
+  font-size: 20px;
+}
+.service-box img {
+  margin-bottom: 22px;
+}
+.service-box:hover {
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
